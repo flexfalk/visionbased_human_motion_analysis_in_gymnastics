@@ -1,21 +1,13 @@
 #awesomeproject.py
 #this is our main script that takes an video as input, apply the HPE and save it as a csv file.
 #by GMS
-from torch import nn, optim
-import torch.nn.functional as F
-import torch.utils.data as data
 import torch
-from torch.utils.data.sampler import SubsetRandomSampler
 import pandas
-import numpy as np
 import cv2
 import time
-import PoseModule as pd
-from CNN_file import CNN
-from torch.autograd import Variable
-from preprocessing import LivePreprocessor, PreProcesser
-import pickle
-from create_skeleton import create_skeleton
+from src.features import PoseModule as pd
+from src.features.preprocessing import LivePreprocessor, PreProcesser
+from src.features.create_skeleton import create_skeleton
 
 
 #import preprocessor

@@ -1,6 +1,5 @@
 import json
 import pandas as pd
-from Json_to_csv import json_to_csv
 
 path= r'/Users/Morten/Library/CloudStorage/OneDrive-SharedLibraries-ITU/Sofus Sebastian Schou Konglevoll - Bachelor/kfold/fold0/sub_folder0/train.json'
 
