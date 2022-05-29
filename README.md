@@ -5,3 +5,6 @@ In the research we explore human action recognition in the fied of gymnastics. W
 
 
 The directory CODE, can for some reason not be deleted, but everything important is in foder scr
+
+
+All the data and the results are stored in a shared OneDrive folder due to space. If interested in the dataset write us an email on sosk@itu.dk
